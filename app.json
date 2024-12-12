@@ -54,7 +54,7 @@
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
+      "value": "no",
       "required": false 
     },
     "HEROKU_APY_KEY": {
@@ -69,18 +69,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0ZGaXJMTCt1ZVZabmRMclZQWjNXd081QWNXNDJoTE4rdTZSYVpVeU9IST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTSt3Skxxb3o0dWw5UklXcnY0WHdEOG4wZ1k2QitBWlUwN2xVeXg3U0lrYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzREZtS2xsUDNTZ1dXZXNRQkZ0di9ZNGorVWtVNjdwKzY4QjNrdWxadlgwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJyelo4T0s3UzRTbVhyWk1zblNodlZEdXIreHBiK2pqK1lLYUpJZi9GYlFNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNDaU9QSVA4S051c1N0ekIwd2FSbGlQWVhDYU5ERmxtNDBqeXk4WlpXVms9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjB1Y1pKODlINXB0bEhRSFpEak9veGJ3OVN5ak9JMUtJQndpelg5RE0yMDQ9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0JHZExKUVhBMlRoeUpDWEk3R0NSY3hwc1lZcnoyUzc4RVh4S0VNQU1Fdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicENKT3RvSHdoa2JqTW9TNEpWOVBPclBocTJlQWFRL3NyN3VrbUYwZHJDUT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5kd2ljUkVCYXkyR1lBdFh2QUZ3cXNYaXpuNXZJTDVta25xc1Y3Y3dwOEN0M2haZUJUdi9zUm1nVkxXWlVyVW5EQTVlTTRycmNEVGFqemYzbkxuWWhRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE0LCJhZHZTZWNyZXRLZXkiOiJ6WTJjQlNXUmV2dm5mcTNwTndReWpBYjFIVkowSUNLMWM3TXB2aCtLUUVFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIwOEIyMkNMd1JsbVVnb0g3a3I3SnF3IiwicGhvbmVJZCI6IjM2NzZmNjEyLTM1MGEtNDE4NC1iMWZhLTdkZWIwNjcxN2FkZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI3ZlM0aG01V2xyTTlCKzN1aDZmM2ZtTmU2U2c9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieEI1Rzd1a1lrNUlaMTVYS2xMTjZIby9hMzFFPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjQ5RUNISzM5IiwibWUiOnsiaWQiOiIyMzQ5MTM0OTA5MDM5OjZAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0t2RDJ2c0hFUC9GNjdvR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik1xQjNWK2tRQnZ0LzNIS0dlejZRR0FhRU5qZVpVbTdpQW83cEhmeU1TVGs9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjAwc2pVZG9COXdqQ0tCdTFBNFhXQ1lSS0YvdkpwOW9YL1h0TzArdXpKU2wxQU02VnpGNHBaZ3hhbS91U2g2RzB6cHBBNTE4WDZ6UWZOSFNnUHc4QkNnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJsY3c2My9kSGpIZ1hJOVpVbWtWa0duTFpmSDMwcXVGYlRjM1I2L3BNMk0wZVo1NmFuU1VZaTJxOXM4L1UrMGpFeldXb3ROR1V1UlpuellQUys5VFZpZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDkxMzQ5MDkwMzk6NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUS2dkMWZwRUFiN2Y5eHlobnMra0JnR2hEWTNtVkp1NGdLTzZSMzhqRWs1In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM0MDA5NjEyfQ==",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "𝐁𝐞𝐥𝐭𝐚𝐡 𝐤𝐞"
+      "value": "@⁨𓊈𒆜𓊉•Ɣ_¢єє•‧₊˚.ʋιɾυֆ.˚₊‧【𓆣】⁩"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "254114141192"
+      "value": "2348189862145"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -99,7 +99,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_REACTION": {
